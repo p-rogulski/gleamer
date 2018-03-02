@@ -1,0 +1,30 @@
+{
+  "name": "gleamer",
+  "version": "1.0.0",
+  "description": "javascript flow library",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "webpack --watch",
+    "dev:build": "webpack-dev-server --open --config webpack-dev.config.js",
+    "dev:prod": "webpack-dev-server --open --config webpack-prd.config.js"
+  },
+  "keywords": [
+    "gleamer",
+    "gleamer-flow"
+  ],
+  "author": "Piotr Rogulski",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "csv-loader": "^2.1.1",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.0.0",
+    "xml-loader": "^1.2.1"
+  }
+}
